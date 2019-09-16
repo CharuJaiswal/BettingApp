@@ -24,7 +24,9 @@ export class HostlisnerComponent implements OnInit {
  @HostListener('mouseover') onHover() {
   window.alert("hover");
 }
-
+@HostListener('mouseout') onOut() {
+  window.alert("hjfxgjhlf;xgyh;fxghlfxk");
+}
   ngOnInit() {
   }
 
